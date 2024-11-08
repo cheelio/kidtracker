@@ -64,7 +64,7 @@ services:
     volumes:
       - ./logs:/app/logs
     environment:
-      - TZ=Europe/Moscow
+      - TZ=Europe/Amsterdam
       - SPRING_JPA_DATABASE=POSTGRESQL
       - SPRING_JPA_DATABASE_PLATFORM=org.hibernate.dialect.PostgreSQL10Dialect
       - SPRING_DATASOURCE_DRIVER_CLASS_NAME=org.postgresql.Driver
